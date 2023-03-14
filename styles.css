@@ -40,7 +40,7 @@ ul {
 }
 
 .nav-brand {
-  width: 80px;
+  width: 120px;
 }
 
 /* Navbar Left */
@@ -146,46 +146,17 @@ hr {
   font-weight: bold;
 }
 
-/* CARDS BANNER ONE */
-.cards-banner-one {
-  width: 100%;
-  height: 350px;
-  background: url("./img/tech-red.jpg");
-  margin-bottom: 40px;
-}
-
-.cards-banner-one .content {
-  width: 40%;
-  padding: 90px 0 0 30px;
-  color: #fff;
-}
-
-.cards-banner-one p,
-.cards-banner-two p {
-  margin: 10px 0 20px 0;
-}
-
-/* CARDS BANNER TWO*/
-.cards-banner-two {
-  width: 100%;
-  height: 350px;
-  background: url("./img/image-five.jpg") no-repeat center center/cover;
-}
-
-.cards-banner-two .content {
-  width: 50%;
-  padding: 100px 0 0 30px;
-}
-
 /* Follow */
 .social {
   margin: 50px;
 }
+
 .social p {
   text-align: center;
   font-size: 30px;
   margin-bottom: 20px;
 }
+
 .links {
   display: flex;
   align-items: center;
@@ -264,6 +235,7 @@ hr {
     border-bottom: #ccc solid 1px;
     font-size: 14px;
   }
+
   .nav-main ul.nav-menu li:last-child {
     border-bottom: 0;
   }
@@ -300,6 +272,7 @@ hr {
     width: 100%;
     padding: 60px 20px;
   }
+
   .footer-links .footer-container {
     grid-template-columns: 1fr;
   }
@@ -307,4 +280,99 @@ hr {
   .footer-links .footer-container ul {
     text-align: center;
   }
+}
+
+.entrenadores {
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  margin: 70px 0;
+  text-align: center;
+}
+
+.entrenadores img {
+  margin: auto;
+  padding: 5px;
+  font-size: large;
+}
+
+.entrenadores h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.entrenadores a {
+  border: 0;
+  background-image: linear-gradient(150deg,
+      #9500ff,
+      #09f,
+      #0df);
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  padding: 4px;
+  cursor: pointer;
+  transition: .3s;
+  display: inline-block;
+}
+
+.bot {
+  background-color: #111;
+  padding: 16px 24px;
+  border-radius: 6px;
+  transition: .3s;
+}
+
+.bot:hover {
+  background: none;
+  transform: scale(0.9);
+}
+
+.Logotype {
+  width: 180px;
+  position: relative;
+  left: 75%;
+  top: 0px;
+}
+
+.presentacion h1 {
+  text-align: center;
+}
+
+.presentacion p {
+  text-align: center;
+  margin: 6%;
+  padding: 10%;
+  transform: translateY(-50%);
+}
+
+.presentacion h3 {
+  text-align: center;
+  margin: 7%;
+  padding: 10%;
+  transform: translateY(-180%);
+}
+
+.instagram-media {
+  position: relative;
+  left: 30%;
+  top: 0px;
+  transform: translateY(-80%);
+}
+
+.volver_menu {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #008CBA;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease;
+}
+
+.volver_menu:hover {
+  background-color: #005F6B;
 }
