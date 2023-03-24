@@ -376,3 +376,12 @@ hr {
 .volver_menu:hover {
   background-color: #005F6B;
 }
+
+.asesorias {
+  text-align: center;
+}
+
+.asesorias img {
+  width: 500px;
+  height: 500px;
+}
