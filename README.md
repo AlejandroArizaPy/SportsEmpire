@@ -1,5 +1,5 @@
 # Sports-Empire HTML
-![](./screenshot.png)
+![](./screenshot1.png)
 
 # Recomendations
 * Minimize the size of Images
