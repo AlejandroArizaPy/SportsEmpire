@@ -402,7 +402,25 @@ hr {
   }
 }
 
-body {
+
+.btnregistro {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btnregistro:hover {
+  background-color: #45a049;
+}
+
+.btnregistro:active {
+  background-color: #3e8e41;
+}
+
+body.registrousuarios {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
